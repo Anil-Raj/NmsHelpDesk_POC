@@ -44,7 +44,7 @@ namespace Microsoft.Bot.Sample.FormBot
         {
             OnCompletionAsyncDelegate<SandwichOrder> processOrder = async (context, state) =>
             {
-                await context.PostAsync("This is the end of the form, you would give a final confirmation, and then start the ordering process as needed.");
+                await context.PostAsync("This is the end ");
             };
 
             return new FormBuilder<SandwichOrder>()
