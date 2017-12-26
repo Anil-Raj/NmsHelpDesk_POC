@@ -12,9 +12,7 @@ namespace Microsoft.Bot.Sample.FormBot
 {
     public enum SandwichOptions
     {
-        BLT, BlackForestHam, BuffaloChicken, ChickenAndBaconRanchMelt, ColdCutCombo, MeatballMarinara,
-        OvenRoastedChicken, RoastBeef, RotisserieStyleChicken, SpicyItalian, SteakAndCheese, SweetOnionTeriyaki, Tuna,
-        TurkeyBreast, Veggie
+        ACS, ASC, SUNSTATE, RAND FINANCIAL
     };
     public enum LengthOptions { SixInch, FootLong };
     public enum BreadOptions { NineGrainWheat, NineGrainHoneyOat, Italian, ItalianHerbsAndCheese, Flatbread };
