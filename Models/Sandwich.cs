@@ -48,7 +48,7 @@ namespace Microsoft.Bot.Sample.FormBot
             };
 
             return new FormBuilder<SandwichOrder>()
-                    .Message("Welcome to the simple sandwich order bot!")
+                    .Message("Welcome to NMS Help Desk")
                     .OnCompletion(processOrder)
                     .Build();
         }
