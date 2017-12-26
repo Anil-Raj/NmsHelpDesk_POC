@@ -12,7 +12,7 @@ namespace Microsoft.Bot.Sample.FormBot
 {
     public enum SandwichOptions
     {
-        ACS, ASC, SUNSTATE, RAND FINANCIAL
+        ACS, ASC, SUNSTATE, RAND_FINANCIAL
     };
     public enum LengthOptions { SixInch, FootLong };
     public enum BreadOptions { NineGrainWheat, NineGrainHoneyOat, Italian, ItalianHerbsAndCheese, Flatbread };
