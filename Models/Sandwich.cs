@@ -31,7 +31,7 @@ namespace Microsoft.Bot.Sample.FormBot
     [Serializable]
     public class SandwichOrder
     {
-        public SandwichOptions? Sandwich;
+        public SandwichOptions? Project;
         public LengthOptions? Length;
         public BreadOptions? Bread;
         public CheeseOptions? Cheese;
@@ -40,7 +40,7 @@ namespace Microsoft.Bot.Sample.FormBot
 
         public static IForm<SandwichOrder> BuildForm()
         {
-            OnCompletionAsyncDelegate<SandwichOrder> processOrder = async (context, state) =>
+            OnCompletionAsyncDelegate<Order> processOrder = async (context, state) =>
             {
                 await context.PostAsync("This is the end ");
             };
