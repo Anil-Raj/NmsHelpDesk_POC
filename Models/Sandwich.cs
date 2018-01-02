@@ -40,7 +40,7 @@ namespace Microsoft.Bot.Sample.FormBot
 
         public static IForm<SandwichOrder> BuildForm()
         {
-            OnCompletionAsyncDelegate<Order> processOrder = async (context, state) =>
+            OnCompletionAsyncDelegate<SandwichOrder> processOrder = async (context, state) =>
             {
                 await context.PostAsync("This is the end ");
             };
